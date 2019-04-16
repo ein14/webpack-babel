@@ -1,0 +1,33 @@
+{
+  "name": "webpack-babel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ein14/webpack-babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ein14/webpack-babel/issues"
+  },
+  "homepage": "https://github.com/ein14/webpack-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/plugin-transform-async-to-generator": "^7.4.0",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "npm": "^6.9.0"
+  }
+}
